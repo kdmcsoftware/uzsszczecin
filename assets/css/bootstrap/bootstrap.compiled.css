@@ -98,7 +98,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
 }
 
@@ -6403,12 +6403,20 @@ textarea.form-control-lg {
   border: 0 !important;
 }
 
+.border-20 {
+  border: 20px solid #dee2e6 !important;
+}
+
 .border-top {
   border-top: 1px solid #dee2e6 !important;
 }
 
 .border-top-0 {
   border-top: 0 !important;
+}
+
+.border-top-20 {
+  border-top: 20px solid #dee2e6 !important;
 }
 
 .border-end {
@@ -6419,12 +6427,20 @@ textarea.form-control-lg {
   border-right: 0 !important;
 }
 
+.border-end-20 {
+  border-right: 20px solid #dee2e6 !important;
+}
+
 .border-bottom {
   border-bottom: 1px solid #dee2e6 !important;
 }
 
 .border-bottom-0 {
   border-bottom: 0 !important;
+}
+
+.border-bottom-20 {
+  border-bottom: 20px solid #dee2e6 !important;
 }
 
 .border-start {
@@ -6489,6 +6505,10 @@ textarea.form-control-lg {
 
 .border-5 {
   border-width: 5px !important;
+}
+
+.border-20 {
+  border-width: 20px !important;
 }
 
 .w-25 {
