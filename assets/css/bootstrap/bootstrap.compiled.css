@@ -2857,7 +2857,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
   color: #212529;
   text-align: center;
@@ -4532,6 +4532,7 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   padding: 0 0;
   margin-bottom: 1rem;
+  font-size: 0.75rem;
   list-style: none;
 }
 
@@ -4541,8 +4542,8 @@ textarea.form-control-lg {
 .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: 0.5rem;
-  color: #6c757d;
-  content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+  color: #0B8BCA;
+  content: var(--bs-breadcrumb-divider, "»") /* rtl: var(--bs-breadcrumb-divider, "»") */;
 }
 .breadcrumb-item.active {
   color: #6c757d;
