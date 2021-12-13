@@ -260,6 +260,10 @@
   opacity: 0.75 !important;
 }
 
+.opacity-85 {
+  opacity: 0.85 !important;
+}
+
 .opacity-100 {
   opacity: 1 !important;
 }
@@ -1620,6 +1624,10 @@
 
 .bg-opacity-75 {
   --bs-bg-opacity: 0.75;
+}
+
+.bg-opacity-85 {
+  --bs-bg-opacity: 0.85;
 }
 
 .bg-opacity-100 {
